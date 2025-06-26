@@ -1,0 +1,15 @@
+[
+    {
+        "identifier": "scene_1_27_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "subgoals": [
+                "OPEN(washing_machine.1001)",
+                "ONTOP(clothes_jacket.1003, washing_machine.1001)",
+                "ONTOP(soap.1002, washing_machine.1001)",
+                "CLOSED(washing_machine.1001)",
+                "ON(washing_machine.1001)"
+            ]
+        }
+    }
+]

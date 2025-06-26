@@ -1,0 +1,13 @@
+2025-06-25 09:28:52 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - load llm response from ./my_rsn_results/virtualhome/transition_modeling/virtualhome/transition_modeling
+2025-06-25 09:28:52 - worker_2832 - task name is Wash clothes
+2025-06-25 09:28:52 - worker_2832 - category names are ['object_states', 'object_affordance']
+2025-06-25 09:28:52 - worker_2833 - task name is Wash clothes
+2025-06-25 09:28:52 - worker_2833 - category names are ['object_states', 'object_affordance']
+2025-06-25 09:28:52 - worker_2836 - task name is Turn on light
+2025-06-25 09:28:52 - worker_2836 - category names are ['object_states', 'object_affordance']
+2025-06-25 09:28:52 - worker_2834 - task name is Wash clothes
+2025-06-25 09:28:52 - worker_2834 - category names are ['object_states', 'object_affordance']
+2025-06-25 09:28:52 - worker_2835 - task name is Wash clothes
+2025-06-25 09:28:52 - worker_2834 - Error in parsing JSON: list indices must be integers or slices, not str
+2025-06-25 09:28:52 - worker_2835 - category names are ['object_states', 'object_affordance']
+2025-06-25 09:28:52 - worker_2834 - Error in extracting action details: expected string or bytes-like object

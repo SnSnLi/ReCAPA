@@ -1,0 +1,20 @@
+{
+    "object_states": {
+        "precision": 84.6154,
+        "recall": 64.7059,
+        "f1": 73.3333,
+        "planner_success_rate": 0.0
+    },
+    "object_affordance": {
+        "precision": 92.8571,
+        "recall": 86.6667,
+        "f1": 89.6552,
+        "planner_success_rate": 0.0
+    },
+    "overall": {
+        "precision": 73.2673,
+        "recall": 58.2677,
+        "f1": 64.9123,
+        "planner_success_rate": 0.0
+    }
+}

@@ -1,0 +1,102 @@
+[
+    {
+        "identifier": "27_2",
+        "model_name": "deepseek-chat",
+        "llm_output": "plugged_in(washing_machine)\nclosed(washing_machine)\non(washing_machine)\ninside(clothes_jacket, washing_machine)\ninside(soap, washing_machine)\nwalked_to(kitchen)\nfound(basket_for_clothes)\nwashed(clothes_jacket)"
+    },
+    {
+        "identifier": "417_1",
+        "model_name": "deepseek-chat",
+        "llm_output": "plugged_in(washing_machine)\non(washing_machine)\nclosed(washing_machine)\ninside(clothes_pants, washing_machine)\ninside(clothes_shirt, washing_machine)\ndirty(clothes_pants)\ndirty(clothes_shirt)"
+    },
+    {
+        "identifier": "850_1",
+        "model_name": "deepseek-chat",
+        "llm_output": "plugged_in(washing_machine)\non(washing_machine)\nopen(washing_machine)\ninside(clothes_pants, washing_machine)\ninside(laundry_detergent, washing_machine)\nwalk(character)\nopen(washing_machine)\nputin(clothes_pants, washing_machine)\nputin(laundry_detergent, washing_machine)\nswitchon(washing_machine)"
+    },
+    {
+        "identifier": "954_2",
+        "model_name": "deepseek-chat",
+        "llm_output": "plugged_in(washing_machine)\non(washing_machine)\nclosed(washing_machine)\ninside(clothes_dress, washing_machine)\ninside(clothes_pants, washing_machine)\ninside(clothes_shirt, washing_machine)\ninside(clothes_underwear, washing_machine)\ninside(soap, washing_machine)"
+    },
+    {
+        "identifier": "11_1",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(floor_lamp.1)\nturned_on(floor_lamp.1)"
+    },
+    {
+        "identifier": "120_1",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\non(light.2)\non(floor_lamp.1)"
+    },
+    {
+        "identifier": "125_2",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\nplugged_in(light.1)"
+    },
+    {
+        "identifier": "150_2",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\nturned_on(light.1)"
+    },
+    {
+        "identifier": "160_1",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\non(light.2)\nplugged_in(light.1)\nplugged_in(light.2)\nclean(light.1)\nclean(light.2)\nclose(controller.1)\nclose(controller.2)"
+    },
+    {
+        "identifier": "180_2",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\nplugged_in(light.1)\nfound(light.1)"
+    },
+    {
+        "identifier": "205_1",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\nplugged_in(light.1)\nFACING(character.0, light.1)\nWALK(light.1)\nSWITCHON(light.1)"
+    },
+    {
+        "identifier": "222_1",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\nplugged_in(light.1)\nWALK(light.1)\nSWITCHON(light.1)"
+    },
+    {
+        "identifier": "232_2",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\non(light.2)\non(light.3)"
+    },
+    {
+        "identifier": "310_1",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\nplugged_in(light.1)\nclean(light.1)\nclean(bedroom.1)"
+    },
+    {
+        "identifier": "311_1",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(floor_lamp.1)"
+    },
+    {
+        "identifier": "331_2",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\nplugged_in(light.1)"
+    },
+    {
+        "identifier": "339_1",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light)\nplugged_in(light)"
+    },
+    {
+        "identifier": "345_1",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\nplugged_in(light.1)\nSWITCHON(light.1)"
+    },
+    {
+        "identifier": "392_1",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\nplugged_in(light.1)\nclean(light.1)\nfacing(character.1, light.1)\nclose(character.1, light.1)\nswitched_on(light.1)"
+    },
+    {
+        "identifier": "394_2",
+        "model_name": "deepseek-chat",
+        "llm_output": "on(light.1)\nplugged_in(light.1)\nturned_on(light.1)"
+    }
+]

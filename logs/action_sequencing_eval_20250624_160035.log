@@ -1,0 +1,2 @@
+2025-06-24 16:00:35 - virtualhome_eval.evaluation.action_sequencing.scripts.evaluate_results - load llm response from temp_eval_dir/virtualhome/action_sequencing
+2025-06-24 16:00:35 - virtualhome_eval.evaluation.action_sequencing.scripts.evaluate_results - Model name is my-rsn-model

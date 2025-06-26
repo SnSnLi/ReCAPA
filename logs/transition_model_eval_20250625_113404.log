@@ -1,0 +1,255 @@
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - load llm response from ./my_rsn_results/virtualhome/transition_modeling/virtualhome/transition_modeling
+2025-06-25 11:34:04 - worker_8615 - task name is Wash clothes
+2025-06-25 11:34:04 - worker_8616 - task name is Wash clothes
+2025-06-25 11:34:04 - worker_8616 - category names are ['object_states', 'object_affordance']
+2025-06-25 11:34:04 - worker_8615 - category names are ['object_states', 'object_affordance']
+2025-06-25 11:34:04 - worker_8617 - task name is Wash clothes
+2025-06-25 11:34:04 - worker_8617 - category names are ['object_states', 'object_affordance']
+2025-06-25 11:34:04 - worker_8617 - Error in parsing JSON: list indices must be integers or slices, not str
+2025-06-25 11:34:04 - worker_8617 - Error in extracting action details: expected string or bytes-like object
+2025-06-25 11:34:04 - worker_8618 - task name is Wash clothes
+2025-06-25 11:34:04 - worker_8619 - task name is Turn on light
+2025-06-25 11:34:04 - worker_8618 - category names are ['object_states', 'object_affordance']
+2025-06-25 11:34:04 - worker_8619 - category names are ['object_states', 'object_affordance']
+2025-06-25 11:34:04 - worker_8615 - Holistic test: task 27_2 failed
+2025-06-25 11:34:04 - worker_8615 - Error: Plan not found with FD! Error: INFO     planner time limit: None
+INFO     planner memory limit: None
+
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /root/miniconda3/bin/python3 /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/simulation/evolving_graph/pddlgym_planners/FD/builds/release/bin/translate/translate.py /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/pddl_files/predicted_my-rsn-model/27_2.pddl /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/problem_pddl/Wash_clothes/27_2.pddl --sas-file /tmp/tmpssvapr38
+Parsing...
+Parsing domain
+	->Parsing axiom/action entry #2
+	->Parsing action #2
+	->Parsing action 'walk_towards'
+	->Parsing effect
+	->Parsing effect
+	->Parsing literal
+Undefined object
+Got: bathroom
+translate exit code: 31
+
+Driver aborting after translate
+INFO     Planner time: 0.12s
+2025-06-25 11:34:04 - worker_8618 - Holistic test: task 954_2 failed
+2025-06-25 11:34:04 - worker_8618 - Error: Plan not found with FD! Error: INFO     planner time limit: None
+INFO     planner memory limit: None
+
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /root/miniconda3/bin/python3 /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/simulation/evolving_graph/pddlgym_planners/FD/builds/release/bin/translate/translate.py /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/pddl_files/predicted_my-rsn-model/954_2.pddl /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/problem_pddl/Wash_clothes/954_2.pddl --sas-file /tmp/tmpn0wghuv7
+Parsing...
+Parsing domain
+	->Parsing axiom/action entry #4
+	->Parsing action #4
+	->Parsing action 'grab'
+	->Parsing effect
+	->Parsing effect
+	->Parsing literal
+Undefined predicate
+Got: or
+translate exit code: 31
+
+Driver aborting after translate
+INFO     Planner time: 0.11s
+2025-06-25 11:34:04 - worker_8616 - Holistic test: task 417_1 failed
+2025-06-25 11:34:04 - worker_8619 - Holistic test: task 11_1 failed
+2025-06-25 11:34:04 - worker_8616 - Error: Plan not found with FD! Error: INFO     planner time limit: None
+INFO     planner memory limit: None
+
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /root/miniconda3/bin/python3 /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/simulation/evolving_graph/pddlgym_planners/FD/builds/release/bin/translate/translate.py /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/pddl_files/predicted_my-rsn-model/417_1.pddl /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/problem_pddl/Wash_clothes/417_1.pddl --sas-file /tmp/tmpu4bafh0b
+Parsing...
+Parsing domain
+	->Parsing axiom/action entry #4
+	->Parsing action #4
+	->Parsing action 'grab'
+	->Parsing effect
+	->Parsing effect
+	->Parsing literal
+Undefined predicate
+Got: or
+translate exit code: 31
+
+Driver aborting after translate
+INFO     Planner time: 0.13s
+2025-06-25 11:34:04 - worker_8619 - Error: Plan not found with FD! Error: INFO     planner time limit: None
+INFO     planner memory limit: None
+
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /root/miniconda3/bin/python3 /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/simulation/evolving_graph/pddlgym_planners/FD/builds/release/bin/translate/translate.py /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/pddl_files/predicted_my-rsn-model/11_1.pddl /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/problem_pddl/Turn_on_light/11_1.pddl --sas-file /tmp/tmpdjv4zowx
+Parsing...
+Parsing domain
+	->Parsing axiom/action entry #2
+	->Parsing action #2
+	->Parsing action 'walk_towards'
+	->Parsing precondition
+	->Parsing condition
+'and' expects as argument #2 a non-empty block.
+Syntax: (and CONDITION*)
+Got: :effect
+translate exit code: 31
+
+Driver aborting after translate
+INFO     Planner time: 0.12s
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - ATTENTION! object_states: 0 / 4
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - ATTENTION! object_affordance: 0 / 4
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - task name is Wash clothes
+category names are ['object_states', 'object_affordance']
+Holistic test: task 27_2 failed
+Error: Plan not found with FD! Error: INFO     planner time limit: None
+INFO     planner memory limit: None
+
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /root/miniconda3/bin/python3 /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/simulation/evolving_graph/pddlgym_planners/FD/builds/release/bin/translate/translate.py /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/pddl_files/predicted_my-rsn-model/27_2.pddl /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/problem_pddl/Wash_clothes/27_2.pddl --sas-file /tmp/tmpssvapr38
+Parsing...
+Parsing domain
+	->Parsing axiom/action entry #2
+	->Parsing action #2
+	->Parsing action 'walk_towards'
+	->Parsing effect
+	->Parsing effect
+	->Parsing literal
+Undefined object
+Got: bathroom
+translate exit code: 31
+
+Driver aborting after translate
+INFO     Planner time: 0.12s
+task name is Wash clothes
+category names are ['object_states', 'object_affordance']
+Holistic test: task 417_1 failed
+Error: Plan not found with FD! Error: INFO     planner time limit: None
+INFO     planner memory limit: None
+
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /root/miniconda3/bin/python3 /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/simulation/evolving_graph/pddlgym_planners/FD/builds/release/bin/translate/translate.py /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/pddl_files/predicted_my-rsn-model/417_1.pddl /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/problem_pddl/Wash_clothes/417_1.pddl --sas-file /tmp/tmpu4bafh0b
+Parsing...
+Parsing domain
+	->Parsing axiom/action entry #4
+	->Parsing action #4
+	->Parsing action 'grab'
+	->Parsing effect
+	->Parsing effect
+	->Parsing literal
+Undefined predicate
+Got: or
+translate exit code: 31
+
+Driver aborting after translate
+INFO     Planner time: 0.13s
+task name is Wash clothes
+category names are ['object_states', 'object_affordance']
+Holistic test: task 954_2 failed
+Error: Plan not found with FD! Error: INFO     planner time limit: None
+INFO     planner memory limit: None
+
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /root/miniconda3/bin/python3 /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/simulation/evolving_graph/pddlgym_planners/FD/builds/release/bin/translate/translate.py /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/pddl_files/predicted_my-rsn-model/954_2.pddl /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/problem_pddl/Wash_clothes/954_2.pddl --sas-file /tmp/tmpn0wghuv7
+Parsing...
+Parsing domain
+	->Parsing axiom/action entry #4
+	->Parsing action #4
+	->Parsing action 'grab'
+	->Parsing effect
+	->Parsing effect
+	->Parsing literal
+Undefined predicate
+Got: or
+translate exit code: 31
+
+Driver aborting after translate
+INFO     Planner time: 0.11s
+task name is Turn on light
+category names are ['object_states', 'object_affordance']
+Holistic test: task 11_1 failed
+Error: Plan not found with FD! Error: INFO     planner time limit: None
+INFO     planner memory limit: None
+
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /root/miniconda3/bin/python3 /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/simulation/evolving_graph/pddlgym_planners/FD/builds/release/bin/translate/translate.py /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/pddl_files/predicted_my-rsn-model/11_1.pddl /root/onethingai-tmp/RSN/embodied-agent-interface/src/virtualhome_eval/resources/virtualhome/problem_pddl/Turn_on_light/11_1.pddl --sas-file /tmp/tmpdjv4zowx
+Parsing...
+Parsing domain
+	->Parsing axiom/action entry #2
+	->Parsing action #2
+	->Parsing action 'walk_towards'
+	->Parsing precondition
+	->Parsing condition
+'and' expects as argument #2 a non-empty block.
+Syntax: (and CONDITION*)
+Got: :effect
+translate exit code: 31
+
+Driver aborting after translate
+INFO     Planner time: 0.12s
+
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - Total tasks: 5
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - Format errors: 1, rate=20.00%
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - Hallucinations: 0, rate=0.00%
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - Precondition predicate type results:
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - spatial_relations precision: 0.89, recall: 0.80, f1: 0.84
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - object_states precision: 0.93, recall: 0.48, f1: 0.64
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - non-spatial_relations precision: 1.00, recall: 0.50, f1: 0.67
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - object_affordance precision: 0.93, recall: 0.87, f1: 0.90
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - Effect predicate type results:
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - spatial_relations precision: 0.50, recall: 0.35, f1: 0.41
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - object_states precision: 0.79, recall: 0.86, f1: 0.83
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - non-spatial_relations precision: 0.00, recall: 0.00, f1: 0.00
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - Full predicate type results:
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - overall precision: 0.73, recall: 0.58, f1: 0.65
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - spatial_relations precision: 0.73, recall: 0.59, f1: 0.66
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - object_states precision: 0.85, recall: 0.65, f1: 0.73
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - non-spatial_relations precision: 0.33, recall: 0.25, f1: 0.29
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - object_affordance precision: 0.93, recall: 0.87, f1: 0.90
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - Precondition action type results:
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - close precision: 1.00, recall: 1.00, f1: 1.00
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - open precision: 1.00, recall: 0.75, f1: 0.86
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - grab precision: 1.00, recall: 0.33, f1: 0.50
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - walk_towards precision: 0.00, recall: 0.00, f1: 0.00
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - put_on precision: 1.00, recall: 1.00, f1: 1.00
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - switch_on precision: 1.00, recall: 1.00, f1: 1.00
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - plug_in precision: 0.00, recall: 0.00, f1: 0.00
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - Effect action type results:
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - close precision: 0.38, recall: 0.50, f1: 0.43
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - open precision: 1.00, recall: 1.00, f1: 1.00
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - grab precision: 0.00, recall: 0.00, f1: 0.00
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - walk_towards precision: 0.50, recall: 0.27, f1: 0.35
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - put_on precision: 0.25, recall: 0.25, f1: 0.25
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - switch_on precision: 1.00, recall: 1.00, f1: 1.00
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - plug_in precision: 1.00, recall: 1.00, f1: 1.00
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - Full action type results:
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - close precision: 0.71, recall: 0.80, f1: 0.75
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - open precision: 1.00, recall: 0.83, f1: 0.91
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - grab precision: 0.50, recall: 0.25, f1: 0.33
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - walk_towards precision: 0.43, recall: 0.16, f1: 0.23
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - put_on precision: 0.57, recall: 0.57, f1: 0.57
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - switch_on precision: 1.00, recall: 1.00, f1: 1.00
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - plug_in precision: 0.40, recall: 0.33, f1: 0.36
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - Success rates by task type:
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - object_states success rate: 0.0000
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - object_affordance success rate: 0.0000
+2025-06-25 11:34:04 - virtualhome_eval.simulation.evolving_graph.eval_utils - overall success rate: 0.0000
+2025-06-25 11:34:04 - virtualhome_eval.evaluation.transition_modeling.scripts.evaluate_results - Evaluation results of my-rsn-model saved to ./output/virtualhome/evaluate_results/transition_modeling/rsn_test_10samples/virtualhome/evaluate_results/transition_modeling/my-rsn-model

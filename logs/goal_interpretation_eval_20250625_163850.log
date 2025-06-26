@@ -1,0 +1,70 @@
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - load llm response from my_rsn_results/virtualhome/goal_interpretation/virtualhome/goal_interpretation
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Wash clothes, file_id is 27_2
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Wash clothes, file_id 27_2 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Wash clothes, file_id is 417_1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 2
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Wash clothes, file_id 417_1 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Wash clothes, file_id is 850_1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 3
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Wash clothes, file_id 850_1 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Wash clothes, file_id is 954_2
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 4
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Wash clothes, file_id 954_2 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 11_1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 5
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 11_1 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 120_1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 6
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 120_1 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 125_2
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 7
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 125_2 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 150_2
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 8
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 150_2 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 160_1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 9
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 160_1 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 180_2
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 10
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 180_2 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 205_1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 11
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 205_1 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 222_1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 12
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 222_1 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 232_2
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 13
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 232_2 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 310_1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 14
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 310_1 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 311_1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 15
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 311_1 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 331_2
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 16
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 331_2 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 339_1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 17
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 339_1 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 345_1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 18
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 345_1 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 392_1
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 19
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 392_1 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Task is Turn on light, file_id is 394_2
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - format wrong num is 20
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - model my-rsn-model, task Turn on light, file_id 394_2 has format wrong output
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Node: TP: 0, FP: 0, FN: 0, Precision: 0.0, Recall: 0.0, F1: 0.0
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Edge: TP: 0, FP: 0, FN: 0, Precision: 0.0, Recall: 0.0, F1: 0.0
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Action: TP: 0, FP: 0, FN: 0, Precision: 0.0, Recall: 0.0, F1: 0.0
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - All: TP: 0, FP: 0, FN: 0, Precision: 0.0, Recall: 0.0, F1: 0.0
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Format wrong num is 20, Total goals num is 0
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Format wrong rate is 0
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Hallucination num is 0, Total goals num is 0
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Hallucination rate is 0
+2025-06-25 16:38:50 - virtualhome_eval.evaluation.goal_interpretation.scripts.evaluate_results - Evaluate results of my-rsn-model saved to output/virtualhome/evaluate_results/goal_interpretation/my-rsn-model/virtualhome/evaluate_results/goal_interpretation/my-rsn-model

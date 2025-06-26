@@ -1,0 +1,14 @@
+{
+    "node_precision": 0.0,
+    "node_recall": 0.0,
+    "node_f1": 0.0,
+    "edge_precision": 0.0,
+    "edge_recall": 0.0,
+    "edge_f1": 0.0,
+    "action_precision": 0.0,
+    "action_recall": 0.0,
+    "action_f1": 0.0,
+    "all_precision": 0.0,
+    "all_recall": 0.0,
+    "all_f1": 0.0
+}

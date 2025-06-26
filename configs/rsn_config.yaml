@@ -1,0 +1,118 @@
+# RSN Training Configuration
+executable_path: "/root/onethingai-tmp/RSN/virtualhome/virtualhome/headless/linux_exec.v2.3.0.x86_64"
+num_agents: 5
+state_dim: 512
+action_dim: 64
+hidden_dim: 128
+sub_len: 10
+num_episodes: 1000
+max_steps: 200
+lr: 3e-4
+gamma: 0.99
+logprob_threshold: -5.0
+
+# LLM Configuration
+llm_api_key: "sk-a2a988f5b382463fa8c427c1d8b74d84"
+llm_api_base: "https://api.deepseek.com"
+llm_model_name: "deepseek-chat"
+
+# Transformer Configuration
+num_heads: 8
+
+# Alignment parameters with scheduling
+sinkhorn_eps: 0.1
+lambda_sinkhorn_start: 0.0
+lambda_sinkhorn_end: 0.1
+lambda_score_start: 0.0
+lambda_score_end: 0.1
+warmup_episodes: 100
+score_hidden: 256
+
+# Training Configuration
+eval_interval: 20
+save_dir: "results/models"
+
+# --- Hierarchical Reinforcement Learning (HRN) Configuration ---
+# Trajectory segment lengths for different reflection levels
+mid_len: 50
+# Note: high_len is implicitly the full episode length
+
+# Frequency of hierarchical reflection (in episodes)
+mid_level_interval: 5
+high_level_interval: 10
+
+# Loss weights for different levels
+lambda_contrastive_low: 1.0
+lambda_contrastive_mid: 0.5
+lambda_contrastive_high: 0.2
+
+# --- HPCR (Hierarchical Predictive Contrastive Reflection) Configuration ---
+# Enable HPCR mode
+enable_hpcr: true
+
+# Zero-shot mode configuration
+zero_shot_mode: true
+zero_shot_adaptation:
+  enabled: true
+  rapid_adaptation_lr: 1e-3
+  meta_learning_rate: 5e-4
+  adaptation_steps: 5
+  dynamic_prompt_update: true
+  online_prompt_learning: true
+
+# Temperature parameters for each level (τ_low, τ_mid, τ_high)
+hpcr_temperatures:
+  low: 0.1
+  mid: 0.15
+  high: 0.2
+
+# Predictive InfoNCE loss weights for each level (α_low, α_mid, α_high)
+hpcr_pred_weights:
+  low: 1.0
+  mid: 0.8
+  high: 0.6
+
+# Prediction head architecture
+hpcr_prediction_head:
+  hidden_dim: 256
+  num_layers: 2
+  dropout: 0.1
+
+# Failure sample generation for mid-level
+hpcr_failure_sampling:
+  enabled: true
+  gpt4_model: "gpt-4"
+  failure_sample_ratio: 0.3  # 30% of negative samples are failure samples
+  generation_interval: 10    # Generate failure samples every 10 episodes
+
+# Hard negative sampling
+hpcr_hard_negatives:
+  enabled: true
+  hard_negative_ratio: 0.5   # 50% of negative samples are hard negatives
+  mining_strategy: "cosine_similarity"  # or "euclidean_distance"
+
+# Multi-level trajectory slicing
+hpcr_trajectory_slicing:
+  low_span: 10      # Short span (几步)
+  mid_span: 50      # Medium span (中期子任务)
+  high_span: -1     # Full episode (-1 means full length)
+
+# Gradient fusion mechanism
+hpcr_gradient_fusion:
+  fusion_method: "weighted_sum"  # or "attention_based"
+  fusion_weights:
+    low: 0.5
+    mid: 0.3
+    high: 0.2
+
+# Mutual information estimation (MINE)
+hpcr_mine:
+  enabled: true
+  mine_hidden_dim: 128
+  mine_lr: 1e-4
+
+# Advanced settings
+hpcr_advanced:
+  use_shared_encoder: true     # Whether to share encoder across levels
+  use_cross_level_attention: true  # Cross-level attention mechanism
+  stability_regularization: 0.01   # Regularization to ensure low-level predictions don't break high-level stability

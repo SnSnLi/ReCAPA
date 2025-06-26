@@ -1,0 +1,72 @@
+[
+    {
+        "identifier": "27_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "output": "(:action put_on\n  :parameters (?char - character ?obj1 - object ?obj2 - object)\n  :precondition (and (grabbable ?obj1) (next_to ?char ?obj2) (or (holds_rh ?char ?obj1) (holds_lh ?char ?obj1)))\n  :effect (and (obj_ontop ?obj1 ?obj2) (not (holds_rh ?char ?obj1)) (not (holds_lh ?char ?obj1)))\n)\n(:action walk_towards\n  :parameters (?char - character ?obj - object)\n  :precondition (and (movable ?obj))\n  :effect (and (next_to ?char ?obj))\n)\n(:action switch_on\n  :parameters (?char - character ?obj - object)\n  :precondition (and (has_switch ?obj) (next_to ?char ?obj) (off ?obj))\n  :effect (and (on ?obj) (not (off ?obj)))\n)\n(:action grab\n  :parameters (?char - character ?obj - object)\n  :precondition (and (grabbable ?obj) (next_to ?char ?obj) (not (holds_rh ?char ?obj)) (not (holds_lh ?char ?obj)))\n  :effect (or (holds_rh ?char ?obj) (holds_lh ?char ?obj))\n)\n(:action close\n  :parameters (?char - character ?obj - object)\n  :precondition (and (can_open ?obj) (open ?obj) (next_to ?char ?obj))\n  :effect (and (closed ?obj) (not (open ?obj)))\n)\n(:action open\n  :parameters (?char - character ?obj - object)\n  :precondition (and (can_open ?obj) (closed ?obj) (next_to ?char ?obj))\n  :effect (and (open ?obj) (not (closed ?obj)))\n)"
+        }
+    },
+    {
+        "identifier": "417_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "output": "(:action put_on\n  :parameters (?char - character ?obj1 - object ?obj2 - object)\n  :precondition (and (grabbable ?obj1) (next_to ?char ?obj2))\n  :effect (and (obj_ontop ?obj1 ?obj2) (not (holds_rh ?char ?obj1)) (not (holds_lh ?char ?obj1)))\n\n(:action walk_towards\n  :parameters (?char - character ?obj - object)\n  :precondition ()\n  :effect (next_to ?char ?obj))\n\n(:action switch_on\n  :parameters (?char - character ?obj - object)\n  :precondition (and (has_switch ?obj) (next_to ?char ?obj) (plugged_in ?obj) (off ?obj))\n  :effect (and (on ?obj) (not (off ?obj))))\n\n(:action grab\n  :parameters (?char - character ?obj - object)\n  :precondition (and (grabbable ?obj) (next_to ?char ?obj))\n  :effect (holds_rh ?char ?obj))\n\n(:action close\n  :parameters (?char - character ?obj - object)\n  :precondition (and (can_open ?obj) (open ?obj) (next_to ?char ?obj))\n  :effect (and (closed ?obj) (not (open ?obj))))\n\n(:action open\n  :parameters (?char - character ?obj - object)\n  :precondition (and (can_open ?obj) (closed ?obj) (next_to ?char ?obj))\n  :effect (and (open ?obj) (not (closed ?obj))))"
+        }
+    },
+    {
+        "identifier": "850_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "output": "(:action switch_off\n  :parameters (?char - character ?obj - object)\n  :precondition (and (on ?obj) (has_switch ?obj) (next_to ?char ?obj))\n  :effect (and (not (on ?obj)) (off ?obj))\n)\n(:action put_on\n  :parameters (?char - character ?obj1 - object ?obj2 - object)\n  :precondition (or (and (holds_rh ?char ?obj1) (next_to ?char ?obj2)) (and (holds_lh ?char ?obj1) (next_to ?char ?obj2)))\n  :effect (and (when (holds_rh ?char ?obj1) (not (holds_rh ?char ?obj1))) (when (holds_lh ?char ?obj1) (not (holds_lh ?char ?obj1))) (obj_ontop ?obj1 ?obj2))\n)\n(:action walk_towards\n  :parameters (?char - character ?obj - object)\n  :precondition ()\n  :effect (next_to ?char ?obj)\n)\n(:action switch_on\n  :parameters (?char - character ?obj - object)\n  :precondition (and (off ?obj) (has_switch ?obj) (next_to ?char ?obj) (plugged_in ?obj))\n  :effect (and (not (off ?obj)) (on ?obj))\n)\n(:action grab\n  :parameters (?char - character ?obj - object)\n  :precondition (and (grabbable ?obj) (next_to ?char ?obj) (not (holds_rh ?char ?obj)) (not (holds_lh ?char ?obj)))\n  :effect (or (holds_rh ?char ?obj) (holds_lh ?char ?obj))\n)\n(:action close\n  :parameters (?char - character ?obj - object)\n  :precondition (and (can_open ?obj) (open ?obj) (next_to ?char ?obj))\n  :effect (and (not (open ?obj)) (closed ?obj))\n)\n(:action open\n  :parameters (?char - character ?obj - object)\n  :precondition (and (can_open ?obj) (closed ?obj) (next_to ?char ?obj))\n  :effect (and (not (closed ?obj)) (open ?obj))\n)"
+        }
+    },
+    {
+        "identifier": "954_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "output": "(:action put_on\n  :parameters (?char - character ?obj1 - object ?obj2 - object)\n  :precondition (and (grabbable ?obj1) (next_to ?char ?obj2) (or (holds_rh ?char ?obj1) (holds_lh ?char ?obj1)))\n  :effect (and (obj_ontop ?obj1 ?obj2) (not (holds_rh ?char ?obj1)) (not (holds_lh ?char ?obj1))))\n\n(:action walk_towards\n  :parameters (?char - character ?obj - object)\n  :precondition (and (inside ?char home_office) (inside_room ?obj bathroom))\n  :effect (and (not (inside ?char home_office)) (inside ?char bathroom) (next_to ?char ?obj))\n\n(:action switch_on\n  :parameters (?char - character ?obj - object)\n  :precondition (and (has_switch ?obj) (next_to ?char ?obj) (off ?obj) (plugged_in ?obj))\n  :effect (and (on ?obj) (not (off ?obj))))\n\n(:action grab\n  :parameters (?char - character ?obj - object)\n  :precondition (and (grabbable ?obj) (next_to ?char ?obj) (not (holds_rh ?char ?obj)) (not (holds_lh ?char ?obj))\n  :effect (or (holds_rh ?char ?obj) (holds_lh ?char ?obj)))\n\n(:action close\n  :parameters (?char - character ?obj - object)\n  :precondition (and (can_open ?obj) (open ?obj) (next_to ?char ?obj))\n  :effect (and (closed ?obj) (not (open ?obj))))\n\n(:action open\n  :parameters (?char - character ?obj - object)\n  :precondition (and (can_open ?obj) (closed ?obj) (next_to ?char ?obj))\n  :effect (and (open ?obj) (not (closed ?obj))))"
+        }
+    },
+    {
+        "identifier": "11_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "output": "(:action plug_in\n  :parameters (?char - character ?obj - object)\n  :precondition (and\n    (has_plug ?obj)\n    (plugged_out ?obj)\n    (next_to ?char ?obj)\n  )\n  :effect (and\n    (not (plugged_out ?obj))\n    (plugged_in ?obj)\n  )\n)\n(:action walk_towards\n  :parameters (?char - character ?obj - object)\n  :precondition (and\n    (movable ?obj)\n    (not (next_to ?char ?obj))\n  )\n  :effect (and\n    (next_to ?char ?obj)\n  )\n)\n(:action switch_on\n  :parameters (?char - character ?obj - object)\n  :precondition (and\n    (has_switch ?obj)\n    (plugged_in ?obj)\n    (next_to ?char ?obj)\n    (off ?obj)\n  )\n  :effect (and\n    (not (off ?obj))\n    (on ?obj)\n  )\n)"
+        }
+    },
+    {
+        "identifier": "120_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "output": "(:action walk_towards\n  :parameters (?char - character ?obj - object)\n  :precondition ()\n  :effect (next_to ?char ?obj)\n)\n(:action switch_on\n  :parameters (?char - character ?obj - object)\n  :precondition (and (has_switch ?obj) (next_to ?char ?obj) (off ?obj))\n  :effect (and (not (off ?obj)) (on ?obj))\n)"
+        }
+    },
+    {
+        "identifier": "125_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "output": "(:action plug_in\n  :parameters (?char - character ?obj - object)\n  :precondition (and\n    (has_plug ?obj)\n    (plugged_out ?obj)\n    (next_to ?char ?obj)\n  )\n  :effect (and\n    (not (plugged_out ?obj))\n    (plugged_in ?obj)\n  )\n)\n(:action walk_towards\n  :parameters (?char - character ?obj - object)\n  :precondition (and\n    (inside ?char ?room)\n    (inside_room ?obj ?room)\n    (not (next_to ?char ?obj))\n  )\n  :effect (and\n    (not (next_to ?char ?prev_obj))\n    (next_to ?char ?obj)\n  )\n)\n(:action switch_on\n  :parameters (?char - character ?obj - object)\n  :precondition (and\n    (has_switch ?obj)\n    (off ?obj)\n    (next_to ?char ?obj)\n    (plugged_in ?obj)\n  )\n  :effect (and\n    (not (off ?obj))\n    (on ?obj)\n  )\n)"
+        }
+    },
+    {
+        "identifier": "150_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "output": "(:action walk_towards\n  :parameters (?char - character ?obj - object)\n  :precondition ()\n  :effect (and (next_to ?char ?obj))\n(:action switch_on\n  :parameters (?char - character ?obj - object)\n  :precondition (and (has_switch ?obj) (next_to ?char ?obj) (off ?obj) (plugged_in ?obj))\n  :effect (and (on ?obj) (not (off ?obj))))"
+        }
+    },
+    {
+        "identifier": "160_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "output": "(:action walk_towards\n  :parameters (?char - character ?obj - object)\n  :precondition ()\n  :effect (and (next_to ?char ?obj))\n\n(:action switch_on\n  :parameters (?char - character ?obj - object)\n  :precondition (and (has_switch ?obj) (next_to ?char ?obj) (off ?obj))\n  :effect (and (on ?obj) (not (off ?obj))))"
+        }
+    },
+    {
+        "identifier": "180_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "output": "(:action switch_on\n  :parameters (?char - character ?obj - object)\n  :precondition (and\n    (has_switch ?obj)\n    (next_to ?char ?obj)\n    (off ?obj)\n    (plugged_in ?obj)\n  )\n  :effect (and\n    (not (off ?obj))\n    (on ?obj)\n  )\n)\n(:action walk_towards\n  :parameters (?char - character ?obj - object)\n  :precondition (and\n    (not (next_to ?char ?obj))\n  )\n  :effect (and\n    (not (inside ?char ?room))\n    (next_to ?char ?obj)\n  )\n)\n(:action standup\n  :parameters (?char - character)\n  :precondition (and\n    (sitting ?char)\n  )\n  :effect (and\n    (not (sitting ?char))\n  )\n)"
+        }
+    }
+]

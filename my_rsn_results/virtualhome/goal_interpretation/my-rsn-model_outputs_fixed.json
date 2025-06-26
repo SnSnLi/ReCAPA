@@ -1,0 +1,248 @@
+[
+    {
+        "identifier": "27_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "plugged_in(washing_machine)",
+                "closed(washing_machine)",
+                "on(washing_machine)",
+                "inside(clothes_jacket, washing_machine)",
+                "inside(soap, washing_machine)",
+                "walked_to(kitchen)",
+                "found(basket_for_clothes)",
+                "washed(clothes_jacket)"
+            ]
+        }
+    },
+    {
+        "identifier": "417_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "plugged_in(washing_machine)",
+                "on(washing_machine)",
+                "closed(washing_machine)",
+                "inside(clothes_pants, washing_machine)",
+                "inside(clothes_shirt, washing_machine)",
+                "dirty(clothes_pants)",
+                "dirty(clothes_shirt)"
+            ]
+        }
+    },
+    {
+        "identifier": "850_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "plugged_in(washing_machine)",
+                "on(washing_machine)",
+                "open(washing_machine)",
+                "inside(clothes_pants, washing_machine)",
+                "inside(laundry_detergent, washing_machine)",
+                "walk(character)",
+                "open(washing_machine)",
+                "putin(clothes_pants, washing_machine)",
+                "putin(laundry_detergent, washing_machine)",
+                "switchon(washing_machine)"
+            ]
+        }
+    },
+    {
+        "identifier": "954_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "plugged_in(washing_machine)",
+                "on(washing_machine)",
+                "closed(washing_machine)",
+                "inside(clothes_dress, washing_machine)",
+                "inside(clothes_pants, washing_machine)",
+                "inside(clothes_shirt, washing_machine)",
+                "inside(clothes_underwear, washing_machine)",
+                "inside(soap, washing_machine)"
+            ]
+        }
+    },
+    {
+        "identifier": "11_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(floor_lamp.1)",
+                "turned_on(floor_lamp.1)"
+            ]
+        }
+    },
+    {
+        "identifier": "120_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "on(light.2)",
+                "on(floor_lamp.1)"
+            ]
+        }
+    },
+    {
+        "identifier": "125_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "plugged_in(light.1)"
+            ]
+        }
+    },
+    {
+        "identifier": "150_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "turned_on(light.1)"
+            ]
+        }
+    },
+    {
+        "identifier": "160_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "on(light.2)",
+                "plugged_in(light.1)",
+                "plugged_in(light.2)",
+                "clean(light.1)",
+                "clean(light.2)",
+                "close(controller.1)",
+                "close(controller.2)"
+            ]
+        }
+    },
+    {
+        "identifier": "180_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "plugged_in(light.1)",
+                "found(light.1)"
+            ]
+        }
+    },
+    {
+        "identifier": "205_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "plugged_in(light.1)",
+                "FACING(character.0, light.1)",
+                "WALK(light.1)",
+                "SWITCHON(light.1)"
+            ]
+        }
+    },
+    {
+        "identifier": "222_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "plugged_in(light.1)",
+                "WALK(light.1)",
+                "SWITCHON(light.1)"
+            ]
+        }
+    },
+    {
+        "identifier": "232_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "on(light.2)",
+                "on(light.3)"
+            ]
+        }
+    },
+    {
+        "identifier": "310_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "plugged_in(light.1)",
+                "clean(light.1)",
+                "clean(bedroom.1)"
+            ]
+        }
+    },
+    {
+        "identifier": "311_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(floor_lamp.1)"
+            ]
+        }
+    },
+    {
+        "identifier": "331_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "plugged_in(light.1)"
+            ]
+        }
+    },
+    {
+        "identifier": "339_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light)",
+                "plugged_in(light)"
+            ]
+        }
+    },
+    {
+        "identifier": "345_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "plugged_in(light.1)",
+                "SWITCHON(light.1)"
+            ]
+        }
+    },
+    {
+        "identifier": "392_1",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "plugged_in(light.1)",
+                "clean(light.1)",
+                "facing(character.1, light.1)",
+                "close(character.1, light.1)",
+                "switched_on(light.1)"
+            ]
+        }
+    },
+    {
+        "identifier": "394_2",
+        "model_name": "deepseek-chat",
+        "llm_output": {
+            "structured_goal": [
+                "on(light.1)",
+                "plugged_in(light.1)",
+                "turned_on(light.1)"
+            ]
+        }
+    }
+]

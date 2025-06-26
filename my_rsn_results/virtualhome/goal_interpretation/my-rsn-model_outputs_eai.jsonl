@@ -1,0 +1,20 @@
+{"structured_goal": ["plugged_in(washing_machine.1)", "closed(washing_machine.1)", "on(washing_machine.1)", "inside(clothes_jacket.1, washing_machine.1)", "inside(soap.1, washing_machine.1)", "walked_to(kitchen.1)", "found(basket_for_clothes.1)", "washed(clothes_jacket.1)"]}
+{"structured_goal": ["plugged_in(washing_machine.1)", "on(washing_machine.1)", "closed(washing_machine.1)", "inside(clothes_pants.1, washing_machine.1)", "inside(clothes_shirt.1, washing_machine.1)", "dirty(clothes_pants.1)", "dirty(clothes_shirt.1)"]}
+{"structured_goal": ["plugged_in(washing_machine.1)", "on(washing_machine.1)", "open(washing_machine.1)", "inside(clothes_pants.1, washing_machine.1)", "inside(laundry_detergent.1, washing_machine.1)", "walk(character.1)", "open(washing_machine.1)", "putin(clothes_pants.1, washing_machine.1)", "putin(laundry_detergent.1, washing_machine.1)", "switchon(washing_machine.1)"]}
+{"structured_goal": ["plugged_in(washing_machine.1)", "on(washing_machine.1)", "closed(washing_machine.1)", "inside(clothes_dress.1, washing_machine.1)", "inside(clothes_pants.1, washing_machine.1)", "inside(clothes_shirt.1, washing_machine.1)", "inside(clothes_underwear.1, washing_machine.1)", "inside(soap.1, washing_machine.1)"]}
+{"structured_goal": ["on(floor_lamp.1)", "turned_on(floor_lamp.1)"]}
+{"structured_goal": ["on(light.1)", "on(light.2)", "on(floor_lamp.1)"]}
+{"structured_goal": ["on(light.1)", "plugged_in(light.1)"]}
+{"structured_goal": ["on(light.1)", "turned_on(light.1)"]}
+{"structured_goal": ["on(light.1)", "on(light.2)", "plugged_in(light.1)", "plugged_in(light.2)", "clean(light.1)", "clean(light.2)", "close(controller.1)", "close(controller.2)"]}
+{"structured_goal": ["on(light.1)", "plugged_in(light.1)", "found(light.1)"]}
+{"structured_goal": ["on(light.1)", "plugged_in(light.1)", "FACING(character.0, light.1)", "WALK(light.1)", "SWITCHON(light.1)"]}
+{"structured_goal": ["on(light.1)", "plugged_in(light.1)", "WALK(light.1)", "SWITCHON(light.1)"]}
+{"structured_goal": ["on(light.1)", "on(light.2)", "on(light.3)"]}
+{"structured_goal": ["on(light.1)", "plugged_in(light.1)", "clean(light.1)", "clean(bedroom.1)"]}
+{"structured_goal": ["on(floor_lamp.1)"]}
+{"structured_goal": ["on(light.1)", "plugged_in(light.1)"]}
+{"structured_goal": ["on(light.1)", "plugged_in(light.1)"]}
+{"structured_goal": ["on(light.1)", "plugged_in(light.1)", "SWITCHON(light.1)"]}
+{"structured_goal": ["on(light.1)", "plugged_in(light.1)", "clean(light.1)", "facing(character.1, light.1)", "close(character.1, light.1)", "switched_on(light.1)"]}
+{"structured_goal": ["on(light.1)", "plugged_in(light.1)", "turned_on(light.1)"]}

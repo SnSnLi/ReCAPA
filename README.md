@@ -16,7 +16,7 @@ ReCAPA (Reflective Contrastive and Prompt Alignment) is an intelligent agent sys
 
 1. **Clone the project**
 ```bash
-git clone <repository-url>
+git clone https://github.com/SnSnLi/ReCAPA.git
 cd ReCAPA_Project
 ```
 
